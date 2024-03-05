@@ -97,7 +97,7 @@ body{
     background-color:white ;
     color:  rgb(13, 166, 74) ;
    
-    text-align: left;
+    text-align: center;
     font-size: 60px;
     .descarga{
         color: white;
@@ -110,8 +110,8 @@ body{
 }
 .item2{
     background-color: rgb(39, 88, 106) ;
-    display: flex;
-    justify-content: center;
+    
+    text-align: center;
     color: white;
     border-radius: 27px 0px 0px 0px;
     width: 300px;
@@ -121,44 +121,165 @@ body{
         
     }
     .text-srv{
-        margin-top: 100px;
+       margin:50px auto;
+       height: 20px;
+       font-size: 2rem;
+       font-weight: 700;
     }
     
 }
 .item3{
     background-color: rgb(13, 166, 74) ;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: white;
     width: 300px;
     height: 300px;
     .icon-srv{
         margin-top: 40px;
     }
+    .text-srv{
+        margin:50px auto;
+        height: 20px;
+        font-size: 2rem;
+        font-weight: 700;
+     }
     
 }
 .item4{
     background-color:  rgb(13, 166, 74) ;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: white;
     width: 300px;
     height: 300px;
     .icon-srv{
         margin-top: 40px;
     }
+    .text-srv{
+        margin:50px auto;
+        height: 20px;
+        font-size: 2rem;
+        font-weight: 700;
+     }
     
 }
 .item5{
     background-color: rgb(39, 88, 106) ;
-    display: flex;
-    justify-content: center;
+  
+    text-align: center;
     color: white;
     border-radius: 0px 0px 27px 0px;
     width: 300px;
     height: 300px;
     .icon-srv{
+      
         margin-top: 40px;
+       
     }
+    .text-srv{
+        margin:50px auto;
+        height: 20px;
+        font-size: 2rem;
+        font-weight: 700;
+     }
     
 } 
+
+@media(min-width:389px) and (max-height:845px){
+    .services-content{
+        display: none;
+    }
+     
+}
+
+.porcentajes{
+    margin-top: 100px;
+}
+
+.porcent1{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 88, 106);
+    border-radius: 27px 0px 0px 0px;
+    color:  rgb(13, 166, 74) ;
+    p{
+        font-size: 5rem;
+    }
+    
+
+   
+}
+.porcent2{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 166, 74) ;
+    color: rgb(39, 88, 106);
+  
+    p{
+       
+        font-size: 5rem;
+    }
+}
+.porcent3{
+    height: 350px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 88, 106);
+    border-radius: 0px 0px 27px 0px;
+    color:  rgb(13, 166, 74) ;
+    p{
+        font-size: 5rem;
+    }
+   
+}
+.container-about{
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    .img-me{
+        width: 500px;
+        height: 650px;
+        object-fit: cover;
+        opacity: 70%;
+        margin-left: 200px;
+    }
+    .title-me{
+        margin-left: 200px;
+        font-size: 3.5rem;
+        color: rgb(13, 166, 74) ;
+        font-weight: 400;
+    }
+    .history{
+        margin-top: 50px;
+        font-size: 1.5rem;
+        margin-left: 200px;
+        color: rgb(13, 166, 74);
+        font-weight: 400;
+    }
+    .parrafos{
+        margin-top: 30px;
+        margin-left: 200px;
+        text-align: justify;
+    }
+}
+
+
+.map-container {
+    height: 200px;
+    position: relative;
+  }
+
+  .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
